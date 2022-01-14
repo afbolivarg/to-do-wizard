@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.title {
+  color: #39A6A3;
+  margin-left: 8px;
+  font-size: 40px;
+  font-weight: 700;
+}
