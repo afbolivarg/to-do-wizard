@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/TodoWizardHeader.css'
+import './TodoWizardHeader.css'
 
 function TodoWizardHeader() {
   return (
