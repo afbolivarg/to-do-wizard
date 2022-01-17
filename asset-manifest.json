@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/to-do-wizard/static/css/main.792d5393.css",
+    "main.js": "/to-do-wizard/static/js/main.372e8ad2.js",
+    "index.html": "/to-do-wizard/index.html",
+    "main.792d5393.css.map": "/to-do-wizard/static/css/main.792d5393.css.map",
+    "main.372e8ad2.js.map": "/to-do-wizard/static/js/main.372e8ad2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.792d5393.css",
+    "static/js/main.372e8ad2.js"
+  ]
+}
