@@ -1,8 +1,13 @@
 .header {
   display: flex;
-  justify-content: center;
   align-items: center;
   margin-top: 20px;
+  flex-direction: column;
+}
+.big-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo {
@@ -12,7 +17,26 @@
 
 .title {
   color: #39A6A3;
+  margin: 10px 0 8px 8px;
   margin-left: 8px;
   font-size: 40px;
   font-weight: 700;
+}
+.author {
+  color: #39A6A3;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 28px;
+}
+
+.author > a {
+  font-weight: 500;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.author > a:hover {
+  color: rgba(222, 238, 234, 0.7);
+}
+.author > a:active {
+  color: rgba(222, 238, 234);
 }
