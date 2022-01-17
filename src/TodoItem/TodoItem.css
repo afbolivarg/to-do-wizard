@@ -37,6 +37,9 @@
 .Icon-check--active {
   color: #4caf50;
 }
+.Icon-check:hover {
+  color: #39A6A3;
+}
 
 .Icon-delete {
   padding-right: 4px;

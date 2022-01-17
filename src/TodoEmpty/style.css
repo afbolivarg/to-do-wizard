@@ -1,0 +1,41 @@
+.empty-msg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.empty-msg > h1 {
+  color: #BF1363;
+  font-size: 32px;
+  margin: 10px 0;
+}
+.empty-subtitle {
+  display: flex;
+  flex-direction: row;
+}
+.empty-subtitle > p {
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+.add-button {
+  background-color: #BF1363;
+  box-shadow: 0px 0px 12px rgba(191, 19, 99, 0.5);
+  border: none;
+  border-radius: 50%;
+  font-size: 32px;
+  font-weight: bold;
+  color: #DEEEEA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  margin: 0 5px;
+}

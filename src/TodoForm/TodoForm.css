@@ -1,0 +1,65 @@
+form {
+  background-color: #DEEEEA;
+  width: 70%;
+  max-width: 550px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 12px rgba(222, 238, 234, 0.5);
+}
+.sub-title {
+  color: #BF1363;
+  font-weight: 500;
+  font-size: 24px;
+}
+.text-new-todo {
+  font-family: 'Ubuntu', sans-serif;
+  padding: 10px;
+  border: #BF1363 1px solid;
+  border-radius: 10px;
+  outline: none;
+  font-size: 18px;
+  margin: 15px 0;
+  width: 85%;
+  box-shadow: 0px 0px 8px rgba(191, 19, 99, 0.5);
+  resize: vertical;
+}
+.form-btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.form-btn-container > button {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  outline: none;
+  padding: 5px;
+  width: 70px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #39A6A3;
+  background: none;
+  font-weight: 500;
+}
+.cancel-btn {
+  border: none;
+  text-decoration: underline;
+}
+.cancel-btn:hover {
+  color: red;
+}
+.add-btn {
+  border: #39A6A3 2px solid;
+}
+.add-btn:hover {
+  color: green;
+  border: green 2px solid;
+}
+.alert {
+  color: red;
+  font-size: 18px;
+  font-weight: 400;
+}
